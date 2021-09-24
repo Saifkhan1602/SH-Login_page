@@ -1,38 +1,483 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: rgba(233, 223, 228, 0.918);
+  font-family: "Roboto", sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Main_contnr{
+  width: 100%;
+  height: 100vh;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Header {
+  background: linear-gradient(to right, rgb(78, 171, 207), rgb(92, 153, 223));
+  font-size: 13px;
+  width: 100%;
+  height: 35px;
+  border-bottom: 1px solid black;
+  color: whitesmoke;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.Header p{
+  margin-right: 20%;
+}
+.link1 a {
+  text-decoration: none;
+  color: rgb(7, 7, 173);
+}
+.name {
+  padding-left: 150px;
+  background-color: white;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 1px rgb(136, 124, 124);
+}
+.name img {
+  height: 45px;
+  width: 230px;
+}
+.smooth {
+  color: rgb(34, 116, 192);
+}
+.alert{
+  border-radius: 5px;
+  border: 1px solid #848283;
+  color: #fff;
+  background-color: #e7646d;
+  margin: 12px 0px;
+  width: 58%;
+  margin: 10px auto 20px auto;
+  padding: 20px 0;
+}
+.alert p{
+  padding-left: 30px;
+}
+.container {
+  margin: 2rem auto;
+  height: auto;
+  font-size: 10px;
+  width: 58%;
+  padding: 10px 5px;
+  background-color: white;
+  border: 0.2px solid grey;
+  border-radius: 6px;
+  box-shadow: 1px 1px grey, -1px -1px grey;
+}
+
+.login {
+  font-size: 20px;
+  margin: 15px 5px;
+}
+.Login {
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #bbb;
+  color: #1b4ea7;
+}
+.form {
+  width: 50%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: column;
+}
+.user {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.email {
+  margin-left: 29px;
+  margin-bottom: 4px;
+}
+
+.check {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rmbrme {
+  padding: 0 0 0 5px;
+}
+input[type="email"],
+input[type="password"] {
+  padding: 3px;
+  margin-bottom: 5px;
+  background-color: rgba(177, 221, 223, 0.603);
+  border-radius: 2px;
+  font-size: 15px;
+
+  border: 1px solid rgba(128, 128, 128, 0.507);
+  color: black;
+  outline: none;
+}
+
+button {
+  width: 140px;
+  color: #fff;
+  font-weight: bold;
+  padding: 8px 0;
+  border: none;
+  font-size: 15px;
+  margin: 4px 0 4px 35px;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(91, 166, 228);
+}
+.loginbtn:hover {
+  color: black;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+}
+.res {
+  text-align: center;
+  margin: 12px 0 6px 30px;
+  font-size: 14px;
+}
+.res a {
+  text-decoration: none;
+  color: rgb(30, 30, 173);
+}
+.acc_cntnr {
+  width: 50%;
+}
+.account {
+  margin:10px 0 10px 20px;
+  height: auto;
+  width: 80%;
+  color: #000;
+  border-radius: 28px;
+  text-align: center;
+  box-shadow: -3px -3px 1px grey;
+  background: linear-gradient(to right, rgb(137, 183, 201), rgb(77, 142, 196));
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 1px 10px 1px;
+}
+.account h2 span {
+  color: rgb(12, 116, 201);
+}
+.account h2 {
+  color: rgb(31, 29, 29);
+}
+.account h1 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  padding-bottom: 3px;
+  border-bottom: 0.1px solid grey;
+}
+
+.para {
+  line-height: 20px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+.singupbtn {
+  margin: 5px 5px 5px 0px;
+  width: 95px;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: rgba(71, 179, 71, 0.911);
+  border: 0.1px solid #fff;
+  font-size: 15px;
+}
+.singupbtn:hover {
+  color: rgb(17, 172, 17);
+  background-color: #fff;
+  border: 1px solid rgb(17, 172, 17);
+}
+.midcontainer {
+  display: flex;
+}
+.or {
+  width: 90%;
+  text-align: center;
+  border-bottom: .1px solid rgba(87, 84, 84, 0.5);
+  line-height: 0.1em;
+  margin: 10px 0 15px 15px;
+  font-size: 10px;
+}
+
+.or span {
+  background: #fff;
+  padding: 0 8px;
+}
+.options {
+  font-size: 16px;
+  color: rgb(44, 42, 42);
+  margin: 5px 0 10px 20px;
+}
+.social {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 30px;
+  margin-left: 6%;
+  padding: 10px 0;
+}
+
+.google{
+  font-size: 16px;
+  background: linear-gradient(to right,#ea4335,#fbbc05,#34a853,#4285f4);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  cursor: pointer;
+  margin-top: 3px;
+}
+.fb{
+  font-size: 16px;
+  background: rgb(15, 73, 233);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  cursor: pointer;
+  margin-top: 3px;
+}
+.lnkdn{
+  font-size: 16px;
+  background: rgb(44, 112, 238);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  cursor: pointer;
+  margin-top: 3px;
+}
+.sclicn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.fa-google {
   color: white;
+  background:linear-gradient(to right,#ea4335,#fbbc05,#34a853,#4285f4);
+  cursor: pointer;
+  border: 0.1px solid rgba(0, 0, 0, 0.685);
+  border-radius: 4px;
+  padding: 4px;
+}
+.fa-facebook {
+  color: #fff;
+  background-color: rgb(15, 73, 233);
+  border-radius: 4px;
+  padding: 4px;
+  cursor: pointer;
+  border: 0.1px solid rgba(0, 0, 0, 0.774);
+}
+.fa-linkedin {
+  color: #fff;
+  background-color: rgb(44, 112, 238);
+  border-radius: 4px;
+  border: 0.1px solid rgba(0, 0, 0, 0.712);
+  cursor: pointer;
+  padding: 4px 5px;
+}
+.privacy {
+  width: 50%;
+  margin: 15px 0 10px 12px;
+  text-align: center;
+  font-size: 15px;
+}
+.privacy a {
+  text-decoration: none;
+  padding-left: 3px;
+  color: rgb(31, 31, 197);
 }
 
-.App-link {
-  color: #61dafb;
+.footer {
+  font-size: 12px;
+  color: grey;
+  margin-left: 67%;
+  margin-top: -26px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media all and (min-width:320px)and (max-width:480px){
+  .Header {
+    font-size: 7px;
+    height: 20px;
+   
   }
-  to {
-    transform: rotate(360deg);
+  .Header p{
+    margin-right: 5%;
+  }
+  
+  .name {
+    padding-left: 15px;
+    height: 40px;
+  }
+  .name img {
+    height: 18px;
+    width: 95px;
+  }
+  .alert{
+    border-radius: 4px;
+    margin: 16px 0px;
+    width: 95%;
+    margin: 8px auto 15px auto;
+    padding: 7px 0;
+  }
+  .alert p{
+    padding-left: 20px;
+    font-size: 9px;
+  }
+  .container {
+    margin: 1rem auto;
+    width: 95%;
+    padding: 8px 5px;
+  }
+  
+  .login {
+    font-size: 12px;
+    margin: 2px;
+  }
+  .Login {
+    padding-bottom: 0.3em;
+  }
+  .midcontainer{
+    margin-top: 10px;
+  }
+  .user {
+    font-size: 9px;
+    margin-top: 7px;
+  }
+  .email,.password {
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  .email label,.password label{
+    margin-bottom: 3px;
+    font-size: 10px;
+  }
+  .check {
+    margin: 7px 0 7px 7px
+  }
+  .rmbrme {
+    padding: 0 0 0 4px;
+  }
+  input[type="email"],
+  input[type="password"] {
+    font-size: 9px;
+    padding: 1px 2px;
+  }
+  
+  button {
+    width: 70px;
+    padding: 6px 0;
+    font-size: 10px;
+    margin: 4px 0 4px 7px;
+
+  }
+  .res {
+    margin: 6px 0 6px 10px;
+    font-size: 9px;
+  }
+  .acc_cntnr {
+    width: 50%;
+    margin-top: 20px;
+  }
+  .account {
+    margin:8px 0 8px 8px;
+    height: auto;
+    width: 90%;
+    color: #000;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: -3px -3px 1px grey;
+    background: linear-gradient(to right, rgb(137, 183, 201), rgb(77, 142, 196));
+    font-size: 8px;
+    font-weight: bold;
+    padding: 8px 1px 7px 1px;
+  }
+  .account h2 span {
+    color: rgb(12, 116, 201);
+  }
+  .account h2 {
+    color: rgb(31, 29, 29);
+    font-size: 10px;
+  }
+  .account h1 {
+    font-size: 13px;
+    border-bottom: .1px solid silver;
+    margin-bottom: 8px;
+  }
+  
+  .para {
+    line-height: 14px;
+    font-size: 8px;
+    letter-spacing: .2px;
+    word-spacing: .2px;
+  }
+  .singupbtn {
+    margin: 5px 5px 5px 0px;
+    width: 45px;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 9px;
+  }
+  .or {
+    width: 90%;
+    text-align: center;
+    border-bottom: .1px solid rgba(87, 84, 84, 0.5);
+    line-height: 0.1em;
+    margin: 9px 0 15px 18px;
+    font-size: 7px;
+  }
+  
+  .or span {
+    padding: 0 4px;
+  }
+  .options {
+    font-size: 9px;
+    color: rgb(44, 42, 42);
+    margin: 5px 0 5px 18px;
+  }
+  .social {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 15px;
+    margin-left: 3%;
+    padding: 10px 0;
+  }
+  
+  .google,.fb,.lnkdn{
+    font-size: 9px;
+  }
+ 
+  .sclicn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .fa-google, .fa-facebook ,.fa-linkedin {
+    padding: 3px 4px;
+    border: .1px solid silver;
+  }
+
+  .privacy {
+    margin: 10px 0 10px 10px;
+    font-size: 9px;
+  }
+  
+  .footer {
+    font-size: 7px;
+    margin-left: 68%;
+    margin-top: -12px;
   }
 }
