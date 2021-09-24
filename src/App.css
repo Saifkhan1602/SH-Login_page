@@ -238,7 +238,7 @@ button {
 }
 .fb{
   font-size: 16px;
-  background: rgb(15, 73, 233);
+  background: #4267B2;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   cursor: pointer;
@@ -246,7 +246,7 @@ button {
 }
 .lnkdn{
   font-size: 16px;
-  background: rgb(44, 112, 238);
+  background: #0077b5;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   cursor: pointer;
