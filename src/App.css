@@ -347,7 +347,7 @@ button {
   }
   .user {
     font-size: 9px;
-    margin-top: 7px;
+    margin: 7px 0 0 0;
   }
   .email,.password {
     margin-bottom: 4px;
