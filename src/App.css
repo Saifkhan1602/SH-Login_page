@@ -173,6 +173,7 @@ button {
   font-size: 25px;
   margin-bottom: 10px;
   padding-bottom: 3px;
+  color: rgba(245, 245, 245, 0.76);
   border-bottom: 0.1px solid grey;
 }
 

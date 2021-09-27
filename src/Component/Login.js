@@ -98,7 +98,7 @@ const Login = () => {
           </div>
           <div className="sclicn">
             <i class="fab fa-linkedin"></i>
-            <p className="lnkdn">linkedin</p>
+            <p className="lnkdn">linkedIn</p>
           </div>
         </div>
         <div className="privacy">
@@ -111,7 +111,7 @@ const Login = () => {
         </div>
       </div>
       <div className="footer">
-        <p>&copy 2010-2021 ClearFit Inc</p>
+        <p>© 2010-2021 ClearFit Inc</p>
       </div>
     </div>  
     </>
