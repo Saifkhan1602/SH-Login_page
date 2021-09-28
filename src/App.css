@@ -483,3 +483,547 @@ button {
     margin-top: -12px;
   }
 }
+@media all and (min-width:480px)and (max-width:768px){
+  .Header {
+    font-size: 9px;
+    height: 26px;
+   
+  }
+  .Header p{
+    margin-right: 6%;
+  }
+  
+  .name {
+    padding-left: 20px;
+    height: 50px;
+  }
+  .name img {
+    height: 21px;
+    width: 110px;
+  }
+  .alert{
+    border-radius: 4px;
+    margin: 16px 0px;
+    width: 95%;
+    margin: 8px auto 15px auto;
+    padding: 7px 0;
+  }
+  .alert p{
+    padding-left: 23px;
+    font-size: 10px;
+  }
+  .container {
+    margin: 1rem auto;
+    width: 95%;
+    padding: 8px 5px;
+  }
+  
+  .login {
+    font-size: 14px;
+    margin: 2px;
+  }
+  .Login {
+    padding-bottom: 0.3em;
+  }
+  .midcontainer{
+    margin-top: 12px;
+  }
+  .user {
+    font-size: 11px;
+    margin: 7px 0 0 0;
+  }
+  .email,.password {
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  .email label,.password label{
+    margin-bottom: 3px;
+    font-size: 12px;
+  }
+  .check {
+    margin: 7px 0 7px 7px
+  }
+  .rmbrme {
+    padding: 0 0 0 4px;
+  }
+  input[type="email"],
+  input[type="password"] {
+    font-size: 11px;
+    padding: 1px 2px;
+  }
+  
+  button {
+    width: 95px;
+    padding: 6px 0;
+    font-size: 12px;
+    margin: 4px 0 4px 6px;
+
+  }
+  .res {
+    margin: 6px 0 6px 7px;
+    font-size: 11px;
+  }
+  .acc_cntnr {
+    width: 50%;
+    margin-top: 20px;
+  }
+  .account {
+    margin:8px 0 8px 8px;
+    height: auto;
+    width: 90%;
+    color: #000;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: -3px -3px 1px grey;
+    background: linear-gradient(to right, rgb(137, 183, 201), rgb(77, 142, 196));
+    font-size: 10px;
+    font-weight: bold;
+    padding: 8px 1px 5px 1px;
+  }
+  .account h2 span {
+    color: rgb(12, 116, 201);
+  }
+  .account h2 {
+    color: rgb(31, 29, 29);
+    font-size: 12px;
+  }
+  .account h1 {
+    font-size: 14px;
+    border-bottom: .1px solid silver;
+    margin-bottom: 8px;
+  }
+  
+  .para {
+    line-height: 14px;
+    font-size: 10px;
+    letter-spacing: .2px;
+    word-spacing: .2px;
+    color: rgb(68, 14, 14);
+  }
+  .singupbtn {
+    margin: 5px 5px 5px 0px;
+    width: 55px;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 11px;
+  }
+  .or {
+    width: 90%;
+    text-align: center;
+    border-bottom: .1px solid rgba(87, 84, 84, 0.5);
+    line-height: 0.1em;
+    margin: 9px 0 15px 7px;
+    font-size: 9px;
+  }
+  
+  .or span {
+    padding: 0 4px;
+  }
+  .options {
+    font-size: 11px;
+    color: rgb(44, 42, 42);
+    margin: 5px 0 5px 12px;
+  }
+  .social {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-left: 1.5%;
+    padding: 10px 0;
+  }
+  
+  .google,.fb,.lnkdn{
+    font-size: 11px;
+  }
+ 
+  .sclicn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .fa-google, .fa-facebook ,.fa-linkedin {
+    padding: 3px 4px;
+    border: .1px solid silver;
+  }
+
+  .privacy {
+    margin: 10px 0 10px 6px;
+    font-size: 11px;
+  }
+  
+  .footer {
+    font-size: 8px;
+    margin-left: 75%;
+    margin-top: -12px;
+  }
+}
+
+@media all and (min-width:768px)and (max-width:1024px){
+  .Header {
+    font-size: 11px;
+    height: 30px;
+   
+  }
+  .Header p{
+    margin-right: 12%;
+  }
+  
+  .name {
+    padding-left: 75px;
+    height: 50px;
+  }
+  .name img {
+    height: 30px;
+    width: 170px;
+  }
+  .alert{
+    border-radius: 4px;
+    margin: 16px 0px;
+    width: 85%;
+    margin: 8px auto 15px auto;
+    padding: 7px 0;
+  }
+  .alert p{
+    padding-left: 25px;
+    font-size: 13px;
+  }
+  .container {
+    margin: 1rem auto;
+    width: 85%;
+    padding: 8px 5px;
+  }
+  
+  .login {
+    font-size: 14px;
+    margin: 4px 10px;
+  }
+  .Login {
+    padding-bottom: 0.3em;
+  }
+  .midcontainer{
+    margin-top: 13px;
+  }
+  .user {
+    font-size: 12px;
+    margin: 7px 0 0 0;
+  }
+  .email,.password {
+    margin:0 20px 4px 0;
+   
+  }
+  .email{
+    margin-left: 23px;
+  }
+  .email label,.password label{
+    margin-bottom: 3px;
+    font-size: 12px;
+  }
+  .check {
+    margin: 7px 0 7px 7px
+  }
+  .rmbrme {
+    padding: 0 0 0 4px;
+  }
+  input[type="email"],
+  input[type="password"] {
+    font-size: 11px;
+    padding: 2px 3px;
+  }
+  
+  button {
+    width: 105px;
+    padding: 6px 0;
+    font-size: 13px;
+    margin: 4px 0 4px 6px;
+
+  }
+  .res {
+    margin: 6px 0 6px 7px;
+    font-size: 13px;
+  }
+  .acc_cntnr {
+    width: 50%;
+    margin-top: 20px;
+  }
+  .account {
+    margin:8px 0 8px 20px;
+    height: auto;
+    width: 80%;
+    color: #000;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: -3px -3px 1px grey;
+    background: linear-gradient(to right, rgb(137, 183, 201), rgb(77, 142, 196));
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 1px 5px 1px;
+  }
+  .account h2 span {
+    color: rgb(12, 116, 201);
+  }
+  .account h2 {
+    color: rgb(31, 29, 29);
+    font-size: 13px;
+  }
+  .account h1 {
+    font-size: 15px;
+    border-bottom: .1px solid silver;
+    margin-bottom: 8px;
+  }
+  
+  .para {
+    line-height: 16px;
+    font-size: 12px;
+    letter-spacing: .2px;
+    word-spacing: .2px;
+    color: rgb(68, 14, 14);
+  }
+  .singupbtn {
+    margin: 5px 5px 5px 0px;
+    width: 65px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  .or {
+    width: 90%;
+    text-align: center;
+    border-bottom: .1px solid rgba(87, 84, 84, 0.5);
+    line-height: 0.1em;
+    margin: 8px 0 15px 7px;
+    font-size: 10px;
+  }
+  
+  .or span {
+    padding: 0 5px;
+  }
+  .options {
+    font-size: 13px;
+    color: rgb(44, 42, 42);
+    margin: 5px 0 5px 12px;
+  }
+  .social {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+    margin-left: 1%;
+    padding: 10px 0;
+  }
+  
+  .google,.fb,.lnkdn{
+    font-size: 13px;
+  }
+ 
+  .sclicn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .fa-google, .fa-facebook ,.fa-linkedin {
+    padding: 4px;
+    border: .1px solid silver;
+  }
+
+  .privacy {
+    margin: 10px 0 10px 6px;
+    font-size: 13px;
+  }
+  
+  .footer {
+    font-size: 9px;
+    margin-left: 78%;
+    margin-top: -12px;
+  }
+}
+
+@media all and (min-width:1024px)and (max-width:1440px){
+  .Header {
+    font-size: 13px;
+    height: 35px;
+   
+  }
+  .Header p{
+    margin-right: 15%;
+  }
+  
+  .name {
+    padding-left: 130px;
+    height: 60px;
+  }
+  .name img {
+    height: 45px;
+    width: 230px;
+  }
+  .alert{
+    border-radius: 5px;
+    margin: 16px 0px;
+    width: 80%;
+    margin: 12px auto 15px auto;
+    padding: 8px 0;
+  }
+  .alert p{
+    padding-left: 30px;
+    font-size: 15px;
+  }
+  .container {
+    margin: 2rem auto;
+    width: 80%;
+    padding: 8px 5px;
+  }
+  
+  .login {
+    font-size: 15px;
+    margin: 4px 10px;
+  }
+  .Login {
+    padding-bottom: 0.3em;
+  }
+  .midcontainer{
+    margin-top: 13px;
+  }
+  .user {
+    font-size: 14px;
+    margin: 8px 0 0 0;
+  }
+  .email,.password {
+    margin:0 30px 4px 0;
+   
+  }
+  .email{
+    margin-left: 27px;
+  }
+  .email label,.password label{
+    margin-bottom: 3px;
+    font-size: 14px;
+  }
+  .check {
+    margin: 7px 0 7px 7px
+  }
+  .rmbrme {
+    padding: 0 0 0 4px;
+  }
+  input[type="email"],
+  input[type="password"] {
+    font-size: 13px;
+    padding: 3px 5px;
+  }
+  
+  button {
+    width: 125px;
+    padding: 6px 0;
+    font-size: 15px;
+    margin: 4px 0 4px 10px;
+
+  }
+  .res {
+    margin: 6px 0 6px 7px;
+    font-size: 15px;
+  }
+  .acc_cntnr {
+    width: 50%;
+    margin-top: 20px;
+  }
+  .account {
+    margin:8px 0 8px 20px;
+    height: auto;
+    width: 75%;
+    color: #000;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: -3px -3px 1px grey;
+    background: linear-gradient(to right, rgb(137, 183, 201), rgb(77, 142, 196));
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 1px 5px 1px;
+  }
+  .account h2 span {
+    color: rgb(12, 116, 201);
+  }
+  .account h2 {
+    color: rgb(31, 29, 29);
+    font-size: 15px;
+  }
+  .account h1 {
+    font-size: 18px;
+    border-bottom: .1px solid silver;
+    margin-bottom: 10px;
+  }
+  
+  .para {
+    line-height: 18px;
+    font-size: 14px;
+    letter-spacing: .5px;
+    word-spacing: .5px;
+    color: rgb(68, 14, 14);
+  }
+  .singupbtn {
+    margin: 5px 5px 5px 0px;
+    width: 75px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  .or {
+    width: 90%;
+    text-align: center;
+    border-bottom: .1px solid rgba(87, 84, 84, 0.5);
+    line-height: 0.1em;
+    margin: 8px 0 15px 7px;
+    font-size: 10px;
+  }
+  
+  .or span {
+    padding: 0 5px;
+  }
+  .options {
+    font-size: 15px;
+    color: rgb(44, 42, 42);
+    margin: 5px 0 5px 12px;
+  }
+  .social {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+    margin-left: 1%;
+    padding: 10px 0;
+  }
+  
+  .google,.fb,.lnkdn{
+    font-size: 15px;
+  }
+ 
+  .sclicn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .fa-google, .fa-facebook ,.fa-linkedin {
+    padding: 4px;
+    border: .1px solid silver;
+  }
+
+  .privacy {
+    margin: 10px 0 10px 6px;
+    font-size: 15px;
+  }
+  
+  .footer {
+    font-size: 9px;
+    margin-left: 79%;
+    margin-top: -25px;
+  }
+}
